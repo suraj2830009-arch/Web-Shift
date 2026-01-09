@@ -16,7 +16,7 @@ I already made a Python tool called **WebExtractor**, which gives **accurate pho
 
 WebSift works best for scraping **emails** and **links**, but **WebExtractor gives accurate results for everything, including links, phone numbers, and emails**.
 
-**WebExtractor repo link:** [Web-Extractor](https://github.com/suraj2830009-arch/Web-Extractor.git)
+**Web-Extractor repo link:** [Web-Extractor](https://github.com/suraj2830009-arch/Web-Extractor.git)
 
 ## Dependencies
 WebSift automatically checks for and installs the following dependencies if they are missing:
