@@ -45,7 +45,7 @@ cd Web-Shift
 ```  
 4. **Run the Script**
 ``` bash
-bash WebShift.sh
+bash Web-Shift.sh
 ```  
 ## Usage
 1. Provide a valid URL when prompted.
