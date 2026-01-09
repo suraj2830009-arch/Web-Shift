@@ -1,14 +1,103 @@
-MIT License
+## WebSift
+WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool designed to extract email addresses, phone numbers, social media links, and other links from websites. It is developed for Termux and Linux-based systems. This tool is ideal for security professionals and researchers who need to gather publicly available information for ethical and legal purposes.
 
-Copyright (c) 2024 Suraj Kumar
+## Features
+- Scrapes **email addresses** from a given website.
+- Extracts **phone numbers** in standard formats.
+- Scrapes **social media links** and **other URLs** from websites to enhance OSINT capabilities
+- Saves the extracted information for further analysis.
+- Automatically checks and installs missing dependencies (curl, grep, wget).
+- Compatible with **Termux** and **Linux distributions**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Note
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+This tool may show **wrong phone numbers** because phone number scraping is **not fully accurate**.  
+I already made a Python tool called **WebExtractor**, which gives **accurate phone numbers**.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+WebSift works best for scraping **emails** and **links**, but **WebExtractor gives accurate results for everything, including links, phone numbers, and emails**.
+
+**WebExtractor repo link:** [WebExtractor](https://github.com/suraj2830009-arch/Web-Shift.git)
+
+## Dependencies
+WebSift automatically checks for and installs the following dependencies if they are missing:
+
+- **curl**
+- **grep**
+- **wget**
   
-  
+No manual installation is required!
+
+## Disclaimer 
+This tool is for educational and ethical OSINT purposes only. Use it only on websites you own or have explicit permission to analyze. The developer is not responsible for any misuse.
+
+## Installation
+1. **Clone the Repository**
+```bash
+git clone https://github.com/suraj2830009-arch/Web-Shift.git
+```
+2. **Navigate to the WebSift directory**
+```bash     
+cd Web-Shift
+```
+3. **Navigate to the WebSift directory**
+```bash
+cd Web-Shift
+```  
+4. **Run the Script**
+``` bash
+bash WebShift.sh
+```  
+## Usage
+1. Provide a valid URL when prompted.
+   
+2. Choose whether to extract email addresses, phone numbers, social media links, other links, or all three
+   
+3. Optionally save the extracted data to a folder.
+## Example
+```markdown
+                                                                                                                                                                                              
+                                                                                                                                                                                             
+   __          __  _        _____ _  __ _                                                                                                                                                    
+   \ \        / / | |      / ____(_)/ _| |                                                                                                                                                   
+    \ \  /\  / /__| |__   | (___  _| |_| |_                                                                                                                                                  
+     \ \/  \/ / _ \ '_ \   \___ \| |  _| __|                                                                                                                                                 
+      \  /\  /  __/ |_) |  ____) | | | | |_                                                                                                                                                  
+       \/  \/ \___|_.__/  |_____/|_|_|  \__|                                                                                                                                                 
+                                                                                                                                                                                             
+                         Developer: Suraj                                                                                                                                                  
+                                                                                                                                                                                             
+* Email, Phone Number, and Links Scraper Tool
+* GitHub: https://github.com/suraj2830009-arch
+                                                                                                                                  
+[!] Checking internet connection...                                                                                                                                                          
+[*] Connected to the internet.                                                                                                                                                               
+[*] Enter URL to begin : http://testphp.vulnweb.com                                                                                                                                          
+[*] Scrape emails from website? (y/n) : y                                                                                                                                                    
+[*] Scrape phone numbers from website? (y/n) : y                                                                                                                                             
+[*] Scrape social media links or other links? (y/n) : y                                                                                                                                      
+[!] Scraping started                                                                                                                                                                         
+[*] Emails extracted successfully:                                                                                                                                                           
+wvs@acunetix.com                                                                                                                                                                             
+[*] Phone numbers extracted successfully:                                                                                                                                                    
+4445535400                                                                                                                                                                                   
+[*] Social media links and other links extracted successfully:                                                                                                                               
+http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0                                                                                                         
+https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/                                                                                            
+https://www.acunetix.com/vulnerability-scanner/                                                                                                                                              
+https://www.acunetix.com/vulnerability-scanner/php-security-scanner/                                                                                                                         
+http://www.eclectasy.com/Fractal-Explorer/index.html                                                                                                                                         
+http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash                                                                                                        
+http://www.w3.org/TR/html4/loose.dtd                                                                                                                                                         
+[*] Do you want to save the output (y/n) : y                                                                                                                                                 
+[*] Enter folder name : result                                                                                                                                                               
+[*] Output saved successfully in result                                                                                                                                                      
+[!] Exiting....                                                                                                                                                                             
+```                   
+
+## License
+This tool is open-source and available under the MIT License.
+
+
   ## Contributors
   The Contributors Are:-
   https://github.com/suraj2830009-arch
